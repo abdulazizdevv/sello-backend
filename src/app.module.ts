@@ -38,7 +38,7 @@ import { WalletModule } from './api/wallet/wallet.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      url: 'postgres://sammy:2002@localhost:5432/sello',
+      url: 'postgres://postgres:2002@localhost:5432/sello',
       synchronize: true,
       logging: false,
       autoLoadEntities: true,
